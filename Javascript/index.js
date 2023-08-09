@@ -145,4 +145,49 @@ for(let mark of Marks){
     console.log(index);
 }
 
+//Functions in JS
+
+bakeacake(flour, milk , eggs , time , temp)
+{
+    //steps to bake a cake
+}
+
+function add(num1 , num2){
+    let sum = num1+num2;
+    return sum;
+}
+
+let result=add(5 , 45);
+console.log(result);
+
+*/
+
+// Functions in JS
+
+// Types of functions
+
+/*
+function func_name(list of para)
+{
+    //Code for the task
+    return 1;
+}
+
+
+function add(){
+    let num1=34, num2=43;
+    let sum = num1+num2;
+    return sum;
+}
+
+let result=add();
+console.log(result);
+
+function welcome()
+{
+    console.log("Welcome to this course!")
+}
+
+welcome();
+
 */
