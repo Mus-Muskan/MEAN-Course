@@ -190,4 +190,101 @@ function welcome()
 
 welcome();
 
+
+
+//Scope of Variable
+
+//let
+//const
+//var
+
+function demo(){
+    for(var i = 0; i<5 ; i++){
+        console.log(i);
+    }
+            console.log(i);
+}
+
+demo();
+
+var color = 'blue';
+let ame = "Ana";
+
+
+
+// String Manipulation 
+
+let string = "I'm an Avocado!!";
+console.log(string);
+
+let welcome = " She said, \"I\'m a student\" ";
+console.log(welcome);
+
+//Concatenation 
+console.log("Hello"+" Folks");
+
+console.log(987497 + 34597);
+
+
+
+// Basic String functions
+
+let string = "I'm an Avocado!!";
+
+let n = "124";
+
+let num = Number(n);
+console.log(typeof(num));
+console.log(num.toString());
+
+//Template Literals
+
+console.log(string+"I have"+ num+ "cals.");
+
+let temp = `${string} I have ${num} cals.`
+console.log(temp);
+
+
+
+//String Functions
+
+//Number()
+//to.String()
+//length()
+
+let string = "I'm an Avocado!!";
+console.log(string.length);
+
+
+console.log(string.concat(" Pleased to meet you!!!"));
+
+let x = "sTop";
+
+let X = x.toLowerCase();
+console.log(X);
+
+
+//String Functions - II
+
+let string = "I'm an Avocado!!";
+let str = "oiufociuh;ivfoytxluv;v"
+
+//slice 
+
+console.log(string.slice(4, 10));
+
+console.log(str.lastIndexOf(";"));
+
 */
+
+//Arrow Functions
+
+//add()
+let demo = (name) => console.log("Hi " +name +" This is the Arrow function!");
+
+demo("Muskan");
+
+console.log("Please wait!! Still loading...")
+setTimeout(()=>{
+    console.log("Here are your results!!");
+} , 3000);
