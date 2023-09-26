@@ -43,4 +43,16 @@ setTimeout((err)=>{fs.readFile("new.txt",'UTF-8', (err, data)=>{
     console.log(data);
 })}, 4000);
 
+
+
+// Path Module
+
+const path = require('path');
+
+console.log(path.dirname('C:/Users/Muskan/Desktop/MEAN Course/Node/Basics.js'));
+console.log(path.extname('C:/Users/Muskan/Desktop/MEAN Course/Node/Basics.js'));
+console.log(path.basename('C:/Users/Muskan/Desktop/MEAN Course/Node/Basics.js'));
+
+console.log((path.parse('C:/Users/Muskan/Desktop/MEAN Course/Node/Basics.js')));
+
 */
