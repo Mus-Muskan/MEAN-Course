@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "npx": "^10.2.2"
+    "chalk": "^4.1.2",
+    "npx": "^10.2.2",
+    "validator": "^13.11.0"
   }
 }

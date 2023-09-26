@@ -56,3 +56,8 @@ console.log(path.basename('C:/Users/Muskan/Desktop/MEAN Course/Node/Basics.js'))
 console.log((path.parse('C:/Users/Muskan/Desktop/MEAN Course/Node/Basics.js')));
 
 */
+
+var a = 'Hello!';
+console.log(a);
+
+console.log('JKHVLJGVCLH');
