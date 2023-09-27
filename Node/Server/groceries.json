@@ -1,0 +1,19 @@
+[
+    {
+        "code" : 101 ,
+        "item_name" : "Orange",
+        "count" : 27,
+        "price" : "16$/pack"
+    },
+    {
+        "code" : 102,
+        "item_name" : "Yogurt",
+        "count" : 36,
+        "price" : "5$/pack",
+        "flavours": {
+            "diet" : "Avocado",
+            "kids" : "Chocolate"
+        },
+        "batch_no" : "B67Z887JHVF89"
+    }
+]
